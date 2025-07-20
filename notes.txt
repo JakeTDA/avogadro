@@ -1,0 +1,45 @@
+1. For each problem, state its goal in your own words and describe your approach to solve the 
+problem along with any issues you encountered and if/how you managed to solve those issues.
+
+[Problem 1 (Particle Representation)]
+
+Goal: To create a library that has all the functions given by the API in problem 1.
+
+Approach: Firstly, construct the class Blob and use the constructor to assign the instance variables x and y which are 
+the locations of the center of mass of the particles as well as the instance variable pixels which would be the amount of
+pixels in a particle. The add method finds the pixel at the location, and adds it to the blob as well as adding one to 
+the pixel. This helps with the mass() method which returns the value of instance variable pixels, as the total amount
+of pixels in a particle is considered the mass of the particle in this program. The DistanceTo method uses the Euclidean
+Distance equation to find the distance between two center of masses.
+
+[Problem 2 (Particle Identification)]
+
+Goal: To find particles in an image using a luminance threshold
+
+Approach: the findblob() method finds particles by firstly scanning each pixel in the image, and scans the entire 
+particle. Then in the getBeads() method the particles named beads are differentiated using the mass value of each 
+particle. 
+
+[Problem 3 (Particle Tracking)]
+
+Goal: ...
+
+Approach: ...
+
+[Problem 4 (Estimating Avogadro's Constant)]
+
+Goal: ...
+
+Approach: ...
+
+2. Did you receive any help? List the sources along with a short description of the help received.
+
+Source                               Help Received
+------                               -------------
+
+Discussion Class                           ...
+
+3. List any other comments here. Feel free to provide any feedback on how much you learned from
+doing the assignment, and whether you enjoyed doing it.
+
+...
